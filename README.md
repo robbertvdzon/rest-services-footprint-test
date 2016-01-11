@@ -1,8 +1,8 @@
 **REST implementations**
 
-This projects contains 5 different rest service implementations and is used to test the footprint of the different implementations
+This projects contains 4 different rest service implementations and is used to test the footprint of the different implementations
 
-**jee7:**
+**Java EE 7:**
 - Deploy the war in a jee7 container
 - I testes this using TomEE, wildfly, glassfish and liberty profile
 - Test the call using: http://localhost:8080/jee7-1.0-SNAPSHOT/rest/customers/22 (for libertyprofile use port 9080 )
