@@ -4,7 +4,7 @@ This projects contains 4 different rest service implementations and is used to t
 
 **Java EE 7:**
 - Deploy the war in a jee7 container
-- I testes this using TomEE, wildfly, glassfish and liberty profile
+- I tested this using TomEE 1.7.3, Wildfly 9.0.2, Glassfish 4 and Liberty profile 8.5.5.8.
 - Test the call using: http://localhost:8080/jee7-1.0-SNAPSHOT/rest/customers/22 (for libertyprofile use port 9080 )
 - Memory footprint of TomEE: 145MB, wildfly: 200MB, glassfish: 263MB and libertyprofile: 260MB
 - Memory footprint with application deployed of TomEE: 217MB, wildfly: 300MB, glassfish: 397MB and libertyprofile: 345MB
